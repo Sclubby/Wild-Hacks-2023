@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Map</title>
+    <link rel="stylesheet" type="text/css" href="map_category_page.css">
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="button">
+        <a href="#" id="edit-button">Edit</a>
+    </div>
+    
+    <form id="my-form">
+        <label for="access">Select General public Access:</label>
+        <select id="access" name="access">
+            <option value="On Campus Residents">On Campus Residents</option>
+            <option value="General Public">General Public</option>
+        </select><br><br>
+        <label for="space">Select use of space:</label>
+        <select id="space" name="space">
+            <option value="study">study</option>
+            <option value="hangout">hangout</option>
+            <option value="both">both</option>
+        </select><br><br>
+        <label for="food">Select food restrictions:</label>
+        <select id="food" name="food">
+            <option value="No restrictions">No restrictions</option>
+            <option value="restrictions">restrictions</option>
+        </select><br><br>
+        <label for="comments">Leave a comment:</label>
+        <textarea id="comments" name="comments"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+<script src = "script.js"></script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIAmPKwIcfkVRO2HybHwAj5B8G2c-Q940&callback=initMap"> </script>
+    
+
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+        
